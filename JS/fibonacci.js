@@ -1,5 +1,5 @@
 /* Recursive Algorithm Review -- Fibonacci -- */
-function fibonacci(n) {
+var fibonacci = function(n) {
 	if (n <= 1) {
 		return n;
 	} else {
