@@ -3,7 +3,7 @@ Probably asking yourself... really??? BubbleSort?
 BubbleSort is popular, but inefficient, sorting algorithm...
 It works by repeatedly swapping adjacent elements that are out of order
 */
-var bubbleSort = function (array) {
+var bubbleSort = function(array) {
 	//
 	var aLength = array.length;
 	for (var i = aLength - 1; i >= 0; i--) {
