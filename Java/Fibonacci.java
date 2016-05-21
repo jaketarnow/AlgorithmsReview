@@ -1,0 +1,14 @@
+public class Fibonacci {
+    public static Integer fib(int n) {
+        if (n <= 1) {
+            return n;
+        }
+        return fib(n-1) + fib(n-2);
+    }
+
+    public static void main(String[] args) {
+        int n = 12;
+        System.out.println("n is: " + n);
+        System.out.println("nth fibo is: " + fib(n));
+    }
+}
