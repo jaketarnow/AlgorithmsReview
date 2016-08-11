@@ -19,3 +19,5 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 print w + e
+
+# %r is used for debugging.. it dispalys the raw data of the var
