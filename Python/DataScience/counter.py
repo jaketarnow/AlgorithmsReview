@@ -14,3 +14,6 @@ for line in sys.stdin:
 		sums[word] = sums.get( word, 0 ) + 1
 
 print sums
+# Main problem with this approach comes from the fact
+# that is uses a central data structure, dictionary to progressively
+# store all the results 

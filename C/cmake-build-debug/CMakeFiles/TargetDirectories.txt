@@ -1,0 +1,3 @@
+/Users/jacobtarnow/GitHub Personal Projects/AlgorithmsReview/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jacobtarnow/GitHub Personal Projects/AlgorithmsReview/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jacobtarnow/GitHub Personal Projects/AlgorithmsReview/C/cmake-build-debug/CMakeFiles/CReview.dir

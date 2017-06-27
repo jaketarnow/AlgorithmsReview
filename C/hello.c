@@ -64,7 +64,7 @@
 #define STEP 20
 
 main() {
-    hello();
+    countlines();
 }
 
 int hello() {
@@ -109,5 +109,32 @@ int tempTableForReverse() {
         celsius = (5.0 / 9.0) * (fahr - 32);
         printf("%3.0f\t%6.1f\n", fahr, celsius);
     }
+}
+
+int countlines(void)
+{
+  int blanks, tabs, newlines;
+  int c;
+
+
+  blanks = 0;
+  tabs = 0;
+  newlines = 0;
+
+  do {
+      c = getchar();
+      if(c == ' ') {
+          ++blanks;
+      }
+      else if(c == '\t') {
+         ++tabs;
+      }
+      else if(c == '\n') {
+         ++newlines;
+      }
+  }
+  while(c != EOF);
+
+  printf("Blanks: %d\nTabs: %d\nLines: %d\n", blanks, tabs, newlines);
 }
 
