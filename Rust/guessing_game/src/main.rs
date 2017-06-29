@@ -1,16 +1,10 @@
 extern crate rand;
 
+mod fib;
+
 use std::io; /*Calling the io library - library comes from the std lib */
 use std::cmp::Ordering;
 use rand::Rng;
-
-fn fib(n: u64) -> u64 {
-	if n <= 2 {
-		1
-	} else {
-		fib(n - 1) + fib(n - 2)
-	}
-}
 
 fn main() {
     //println!("Guess the number!");
@@ -61,7 +55,7 @@ fn main() {
 	io::stdin().read_line(&mut input).ok().expect("Input Error");
 
 	let num: u64 = input.trim().parse().ok().expect("Parsing Error");
-	let f = fib(num);
+	let f = fib::fibo(num);
 
 	println!("Fib {} is {}", num, f);
 }
